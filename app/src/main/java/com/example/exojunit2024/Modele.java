@@ -12,8 +12,8 @@ public class Modele {
 
     public static void init(){
         lesCategories.add(new Categorie("Adulte",1)); // categorie 0
-        lesCategories.add(new Categorie("Enfant",2)); // categorie 1
-        lesCategories.add(new Categorie("Chomeur",2)); // categorie 2
+        lesCategories.add(new Categorie("Enfant",0.333333)); // categorie 1
+        lesCategories.add(new Categorie("Chomeur",0.5)); // categorie 2
 
 
         lesTypesPlats.add(new TypePlat("Viande"));// TypePlat numero 0
