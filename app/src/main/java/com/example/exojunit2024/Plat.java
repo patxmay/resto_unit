@@ -2,11 +2,12 @@ package com.example.exojunit2024;
 
 public class Plat {
     private String nomP;
-    private int caloriesP;
-    private double prix;
+    private int caloriesP; //  initialisee par defaut à 0
+    private double prix; //  initialisee par defaut à 0.0
     private TypePlat leType;
 
-    public Plat(){
+    public Plat() {
+
         this.nomP = "";
     }
 

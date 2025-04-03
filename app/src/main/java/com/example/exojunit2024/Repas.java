@@ -7,8 +7,9 @@ public class Repas {
     private Categorie uneCategorie;
 
     public Repas() {
+
         lesPlats = new ArrayList<Plat>();
-    }
+       }
 
     public ArrayList<Plat> getLesPlats() {
         return lesPlats;

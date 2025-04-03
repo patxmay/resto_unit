@@ -6,10 +6,7 @@ import static org.junit.Assert.assertNotNull;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-
 public class TestModele {
-
     @Before
     public void setUp() {
         Modele.init();
@@ -18,11 +15,14 @@ public class TestModele {
     @After
     public void tearDown() {
     }
-
     @Test
     public void initLst(){
         assertNotNull(Modele.lesCategories);
         // code à completer
+        assertNotNull(lesPlats);
+        assertNotNull(lesTypesPlats);
+        assertNotNull(lesCategories);
+        assertNotNull(lesRepas);
     }
 
     @Test
